@@ -1,4 +1,4 @@
-//Regina Sosa
+
 let secuencia =[];
 let reproducirBtn = document.getElementById('reproducirBtn');
 let limpiarSecuenciaBtn = document.getElementById('limpiarSecuencia');
