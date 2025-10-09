@@ -4,7 +4,6 @@ console.log(texto)
 
 let maximo =  100; //si quieres la sombra mas cerca o mas lejos de la palabra
 
-//aqui iba la funcion q la profe quito pq no le jalo
 
 hero.addEventListener('mousemove', function(e){
   //console.log(e);
