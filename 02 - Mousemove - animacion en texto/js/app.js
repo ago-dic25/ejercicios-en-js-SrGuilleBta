@@ -34,14 +34,4 @@ hero.addEventListener('mousemove', function(e){
   //`;
 });
 
-//funcion borrada por la profe pq no le jalo
-//document.addEventListener('mousemove', function(e){
-//  console.log(e);
-//  let x = e.offsetX;
-//  let y = e.offsetY;
-//  texto.style.textShadow = `
-//  ${x}px ${y}px 0 rgba(255, 255, 0, 255, 0.7),
-//  ${x * -1}px 0 rgba(0, 255, 255, 0.7),
-//  ${y}px ${x * -1}px 0 rgba(0, 255, 255, 0.7)
-//  ${y * -1}px ${x}px 0 rgba (0, 255, 255, 0.7)`
-//});
+
