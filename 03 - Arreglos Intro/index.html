@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arreglos intro</title>
+    <title>Sistema de Filtrado de Alumnos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="formulario">
+            <div class="selector-propiedad">
+                <label for="campoBusqueda">Buscar por:</label>
+                <select id="campoBusqueda">
+                    <option value="nombre">Nombre</option>
+                    <option value="apellidoPaterno">Apellido Paterno</option>
+                    <option value="apellidoMaterno">Apellido Materno</option>
+                    <option value="matricula">Matrícula</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <input type="text" id="filtroAlumno" placeholder="Escribe para buscar...">
+                <button id="btnConsulta">Realizar Consulta</button>
+            </div>
+            <div id="contador">Mostrando todos los alumnos</div>
+        </div>
+        
+        <div class="resultado">
+            <ul id="listaAlumnos">
+                <!-- Los alumnos se mostrarán aquí dinámicamente -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
